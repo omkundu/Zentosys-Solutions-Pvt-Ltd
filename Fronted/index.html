@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actor Lookup</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>Actor Lookup</h1>
+
+  <h2>Search Actors by Movie</h2>
+  <label for="movieInput">Enter Movie Name:</label>
+  <input type="text" id="movieInput" placeholder="Movie Name">
+  <button onclick="findMoviesByActorName()">Search</button>
+  <div id="actorsResult" class="card-container"></div>
+
+  <h2>Search Movies by Actor</h2>
+  <label for="actorInput">Enter Actor Name:</label>
+  <input type="text" id="actorInput" placeholder="Actor Name">
+  <button onclick="findActorByMoviesName()">Search</button>
+  <div id="moviesResult" class="card-container"></div>
+
+
+  <script src="actorLookup.js"></script>
+</body>
+</html>

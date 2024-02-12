@@ -1,0 +1,64 @@
+/* Global styling for the body of the document */
+body {
+    font-family: 'Arial', sans-serif; /* Use Arial font or a generic sans-serif font if Arial is not available */
+    margin-left: 35%; /* Add left margin to the body, creating a space on the left side */
+    padding: 0; /* Remove default padding to ensure consistent spacing */
+    background-color: #f5f5f5; /* Set a light gray background color */
+}
+
+/* Styling for heading elements h1 and h2 */
+h1, h2 {
+    color: #333; /* Set the text color for h1 and h2 to a dark gray */
+}
+
+/* Additional styling for h1 element */
+h1 {
+    margin-left: 15%; /* Add left margin to h1, creating more space on the left side compared to other headings */
+}
+
+/* Styling for labels within the document */
+label {
+    margin-bottom: 8px; /* Add bottom margin to labels for spacing */
+    font-weight: bold; /* Set font weight to bold for labels */
+}
+
+/* Styling for input elements */
+input {
+    width: 25%; /* Set the width of input elements to 25% of their containing element */
+    padding: 8px; /* Add padding to input elements */
+    margin-bottom: 16px; /* Add bottom margin to input elements for spacing */
+    box-sizing: border-box; /* Include padding and border in the total width and height of the element */
+}
+
+/* Styling for buttons */
+button {
+    background-color: #4caf50; /* Set the background color of buttons to a shade of green */
+    color: white; /* Set the text color of buttons to white */
+    padding: 10px; /* Add padding to buttons */
+    border: none; /* Remove the default border of buttons */
+    cursor: pointer; /* Change the cursor to a pointer when hovering over buttons */
+}
+
+/* Styling for button hover state */
+button:hover {
+    background-color: #45a049; /* Change the background color of buttons on hover */
+}
+
+/* Styling for paragraphs */
+p {
+    margin-top: 16px; /* Add top margin to paragraphs for spacing */
+}
+
+/* Media Query for Small Devices */
+@media only screen and (max-width: 600px) {
+    input {
+        width: 100%; /* Set the width of input elements to 100% for small devices */
+    }
+}
+
+/* Media Query for Medium Devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    input {
+        width: 80%; /* Set the width of input elements to 80% for medium-sized devices */
+    }
+}
