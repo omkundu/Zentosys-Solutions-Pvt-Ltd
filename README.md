@@ -21,7 +21,7 @@ To use the application:
 1. Clone this repository to your local machine.
 
     ```bash
-    git clone https://github.com/your-username/actor-lookup-app.git
+ [   git clone https://github.com/your-username/actor-lookup-app.git](https://github.com/omkundu/Zentosys-Solutions-Pvt-Ltd/tree/master)
     ```
 
 2. Open the `index.html` file in a web browser.
